@@ -34,7 +34,7 @@ export default function MapComponent({updateAddress}) {
     const googleApiUrl = "https://maps.googleapis.com/maps/api/place/textsearch/json"
     const input = searchText.trim()
     const location = `${INITIAL_LAT},${INITIAL_LNG}`
-    const url = `${googleApiUrl}?query=${input}&location=${location}&key=AIzaSyB1yq3WvTcJB0vZOc33AR6N0XO7P3kPD3c`
+   // const url = deleted for security 
 
     try{
       const resp = await fetch (url)
